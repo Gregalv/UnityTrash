@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c0ea46b17d417c40abcd3a820537b69, type: 3}
+  m_Name: Palit1
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 7a703d5606ced9d448f81b3b4232ff7d, type: 3}
+  - {fileID: 21300000, guid: dd7759b9c6a6a7e4c8c4804be04ab528, type: 3}
+  - {fileID: 21300000, guid: 8f44c95cc63c5464493044c0bbeb63a1, type: 3}
+  - {fileID: 21300000, guid: 06b06c7bcb982444c9b957b422c158ef, type: 3}
+  - {fileID: 21300000, guid: 5fc81d3ee8f256640b086abe0d34a353, type: 3}
+  - {fileID: 21300000, guid: 1734817349a8dc5499ea1be610a193be, type: 3}
+  - {fileID: 21300000, guid: 63c76f3d09690b849ac209512f96ee5a, type: 3}
+  - {fileID: 21300000, guid: f41a899f9f7dd4848be074a433e59efa, type: 3}
+  - {fileID: 21300000, guid: c4942c95da07f7d45b6fd92c0ae7c726, type: 3}
+  - {fileID: 21300000, guid: a252cc2e694b7254fa5eebe31b80b882, type: 3}
+  - {fileID: 21300000, guid: 2d69574605937f741a3a614c37a9189f, type: 3}
+  - {fileID: 21300000, guid: 0fefa84f491f18a4cbb13d2c4ec9c1e2, type: 3}
