@@ -1,11 +1,13 @@
 fileFormatVersion: 2
 guid: 9b61959a48c53024fa072bac281504b5
-timeCreated: 1512508347
+timeCreated: 1512859625
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - image: {instanceID: 0}
+  - cubee: {fileID: 1388731690563838, guid: 59399c923e055ea4faf658263b235e0f, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

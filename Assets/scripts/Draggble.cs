@@ -8,6 +8,8 @@ public class Draggble : MonoBehaviour,IDragHandler,IBeginDragHandler,IEndDragHan
     Vector3 startPos;
     Transform startParent;
     private object panelRectTransform;
+    public GameObject cube;
+
 
     public void OnBeginDrag(PointerEventData eventData)
 
@@ -23,6 +25,7 @@ public class Draggble : MonoBehaviour,IDragHandler,IBeginDragHandler,IEndDragHan
         }
         transform.localScale = Vector3.one * 1.3f;
         transform.SetAsLastSibling();
+        //cube = this;
         gameObject.SetActive(false);
         gameObject.SetActive(true);
         //        throw new System.NotImplementedException();
@@ -32,22 +35,14 @@ public class Draggble : MonoBehaviour,IDragHandler,IBeginDragHandler,IEndDragHan
     {
         
         transform.position = eventData.position;
-        
-        
-
-  //    throw new System.NotImplementedException();
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        //   transform.localScale = Vector3.one;
-        //    throw new System.NotImplementedException();
-        if (transform.position.x <= 150)
+        if (transform.position.x <= 250)
         {
             Destroy(gameObject);
-        }
-        //transform.gameObject.SetAsFirstSibling;
-        
+        }       
         
     }
 

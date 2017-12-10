@@ -5,11 +5,16 @@ using UnityEngine.UI;
 
 public class Brush : MonoBehaviour {
     public Image image;
+    
     // Use this for initialization
-    public void Initialize (Sprite sprite) {
+    public void Initialize(Sprite sprite)
+    {
         Debug.Log("Hello world?");
         image.sprite = sprite;
         image.SetNativeSize();
-	}	
+        //image.transform.parent = cubee.transform;
+
+
+    }	
 	
 }
